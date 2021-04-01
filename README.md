@@ -23,12 +23,14 @@ Next, all you need to do is extract the files from the zip file...
 
 
 
-Then, right click on the *******-master folder you have just extracted and open it through VS Code
-![open on vs code](https://user-images.githubusercontent.com/79574031/109513891-365e9b00-7aae-11eb-8631-ccadf47dbb92.png)
+Then, right click on the memory-game-master folder you have just extracted and open it through VS Code
+![image](https://user-images.githubusercontent.com/79574031/113320960-669a9300-9313-11eb-95c0-f79cc4692617.png)
+
 
 
 And Voilà! All the resources are ready to be edited or read :bowtie:
-![the code](https://user-images.githubusercontent.com/79574031/109514186-6dcd4780-7aae-11eb-884f-3a1258c31721.png)
+![image](https://user-images.githubusercontent.com/79574031/113321184-a19cc680-9313-11eb-8b8c-f2bd3ed4e5c9.png)
+
 
 
 
@@ -38,11 +40,16 @@ And Voilà! All the resources are ready to be edited or read :bowtie:
 ## `Viewing Project`
 
 
-To view the website open your terminal and make sure you're on the same directory as where the file is stored.
+To view the website close project on VsCode, open your terminal and make sure you're on the same directory as where the file is stored.
+![image](https://user-images.githubusercontent.com/79574031/113321430-e0328100-9313-11eb-9a8f-24f84c24efef.png)
+
 To navigate to the file simply type in cd followed by the path to your file.
+![image](https://user-images.githubusercontent.com/79574031/113321542-fc362280-9313-11eb-8ac5-68b9b0d20e68.png)
+
 
 
 Type: npm install - this might take a while....
+![image](https://user-images.githubusercontent.com/79574031/113321639-153ed380-9314-11eb-8499-f7b2c6e9e46a.png)
 
 A few moments later... When it's done running type npm start and you project will run 
 on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
