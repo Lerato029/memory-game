@@ -41,15 +41,21 @@ And Voilà! All the resources are ready to be edited or read :bowtie:
 
 
 To view the website close project on VsCode, open your terminal and make sure you're on the same directory as where the file is stored.
-![image](https://user-images.githubusercontent.com/79574031/113321430-e0328100-9313-11eb-9a8f-24f84c24efef.png)
+![image](https://user-images.githubusercontent.com/79574031/113322070-867e8680-9314-11eb-9adc-77555f372c65.png)
+
+
 
 To navigate to the file simply type in cd followed by the path to your file.
-![image](https://user-images.githubusercontent.com/79574031/113321542-fc362280-9313-11eb-8ac5-68b9b0d20e68.png)
+![image](https://user-images.githubusercontent.com/79574031/113322197-aca42680-9314-11eb-8848-6eeb87ca4cb2.png)
+
 
 
 
 Type: npm install - this might take a while....
-![image](https://user-images.githubusercontent.com/79574031/113321639-153ed380-9314-11eb-8499-f7b2c6e9e46a.png)
+![image](https://user-images.githubusercontent.com/79574031/113322242-bd549c80-9314-11eb-9803-80a967f51658.png)
+![image](https://user-images.githubusercontent.com/79574031/113322449-fc82ed80-9314-11eb-801b-3f4c3c0471ac.png)
+
+
 
 A few moments later... When it's done running type npm start and you project will run 
 on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
