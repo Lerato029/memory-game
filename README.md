@@ -59,17 +59,26 @@ Type: npm install - this might take a while....
 
 A few moments later... When it's done running type npm start and you project will run 
 on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
+![image](https://user-images.githubusercontent.com/79574031/113322777-68655600-9315-11eb-9985-94353525e409.png)
+
+
 
 
 
 
 <a name="game"/>
 
-## `Game Objectiv`
+## `Game Objective`
 
 #### The Home Page
+The home page welcomes the user and allows you to play the game or navigate to the Info page where you learn more about the game by 
+clicking on one of the buttons.
+![image](https://user-images.githubusercontent.com/79574031/113322905-92b71380-9315-11eb-858f-9370e183ce91.png)
 
 #### The Info Page
+Here you learn more about how the game works and how to win or lose.
+![image](https://user-images.githubusercontent.com/79574031/113323306-196bf080-9316-11eb-9ba5-1a2c92e0c79c.png)
+
 
 When you click the play button on the info page or the home page the the
 game starts and the count down starts. The main objective is to click on
