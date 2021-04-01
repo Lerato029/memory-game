@@ -1,9 +1,9 @@
 # React Memory Game
 ### The Emoji Memory Game 
 
-**This project was created using the Create React App. It is a good reference for learning how to manage state and using the React Router**
+**This project was created using the Create React App. It is a good reference for learning how to manage state and using the React Router.**
 
-## Table of Contents  
+## `Table of Contents`  
 
 [Installation](#installation)  
 [Viewing Project](#view)  
