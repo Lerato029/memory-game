@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# React Memory Game
+### The Emoji Memory Game 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**This project was created using the Create React App. It is a good reference for learning how to manage state and using the React Router**
 
-## Available Scripts
+## Table of Contents  
 
-In the project directory, you can run:
+[Installation](#installation)  
+[Functionality](#functionality)  
+[Credits](#credits)  
 
-### `npm start`
+<a name="installation"/>  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `Installation`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To install this project navigate the download "code" button as shown in the screenshot below and download the zip folder.
+![zip](https://user-images.githubusercontent.com/79574031/109512421-c0a5ff80-7aac-11eb-891d-67f9421eaea8.JPG)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Next, all you need to do is extract the files from the zip file...
+![extract files](https://user-images.githubusercontent.com/79574031/109513652-02837580-7aae-11eb-9543-c50806f430bc.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then, right click on the *******-master folder you have just extracted and open it through VS Code
+![open on vs code](https://user-images.githubusercontent.com/79574031/109513891-365e9b00-7aae-11eb-8631-ccadf47dbb92.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And Voilà! All the resources are ready to be edited or read :bowtie:
+![the code](https://user-images.githubusercontent.com/79574031/109514186-6dcd4780-7aae-11eb-884f-3a1258c31721.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a name="functionality"/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## `Functionality`
 
-## Learn More
+#### Viewing the website
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To view the website open your terminal and make sure you're on the same directory as where the file is stored.
+To navigate to the file simply type in cd followed by the path to your file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Type: npm install - this might take a while....
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A few moments later... When it's done running type npm start and you project will run 
+on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
 
-### Analyzing the Bundle Size
+#### The Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### The Info Page
 
-### Making a Progressive Web App
+#### The Game Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+When you click the play button on the info page or the home page the the
+game starts and the count down starts. The main objective is to click on
+the cards that match to reveal the cards. You will have 100 seconds to reveal
+all the cards on the page.
+![game](https://user-images.githubusercontent.com/79574031/113316194-5a600700-930e-11eb-85df-336f85a9cc98.png)
 
-### Advanced Configuration
+![youWin](https://user-images.githubusercontent.com/79574031/113317150-60a2b300-930f-11eb-9cf6-8142d3f3fcd5.JPG)
+If you reveal all the cards before the countdown timer reaches 0 then
+you win and the alert pops up! However if you fail to match the cards within the time allocated you lose the game
+and another alert pops up
+![youLose](https://user-images.githubusercontent.com/79574031/113317172-64ced080-930f-11eb-8aed-d991d891f576.JPG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a name="credits"/>
 
-### Deployment
+## `Credits`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ * Author: [Lerato Mokgwabona](https://github.com/Lerato029)
+ * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
