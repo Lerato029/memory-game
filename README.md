@@ -19,7 +19,8 @@ To install this project navigate the download "code" button as shown in the scre
 
 
 Next, all you need to do is extract the files from the zip file...
-![extract files](https://user-images.githubusercontent.com/79574031/109513652-02837580-7aae-11eb-9543-c50806f430bc.png)
+![image](https://user-images.githubusercontent.com/79574031/113320731-220ef780-9313-11eb-9808-d3947feb47dd.png)
+
 
 
 Then, right click on the *******-master folder you have just extracted and open it through VS Code
