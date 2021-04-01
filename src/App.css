@@ -1,38 +1,185 @@
-.App {
+/* ====================================================Basic Styling============================================ */
+h1.heading {
   text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.screenshots {
+  width: 80%;
+  transition: transform 0.8s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.screenshots:hover {
+  transform: scale(1.1)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.homeImg {
+  width: 30%;
+}
+/* ===================================================Header Component=================================================== */
+.header {
+  display: block;
+  margin: 5% 20%;
+  padding: 5% 0;
+  min-height: 80vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.048);
+  border-radius: 3px;
+  box-shadow: 10px 10px rgb(112, 112, 112);
 }
 
-.App-link {
-  color: #61dafb;
+.headerTxt {
+ padding: 2% 15%;
+ font-weight: 500;
+ font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* play button: !important to override css styling */
+.play {
+  background: green !important;
+  border: 1px solid green !important;
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.play:hover {
+  background: rgba(0, 128, 0, 0.219) !important;
+  color: green !important;
+}
+
+
+/* dropdown menu items */
+.menuItem {
+  border: 1px solid rgb(94, 94, 94);
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.menuItem:hover {
+  background: rgb(207, 255, 219) !important;
+}
+
+
+/* ===========================================================The Memory Game============================================== */
+.gameBoard {
+  margin-left: 19.8%;
+  width: 70%;
+}
+
+/* ========cards=========== */
+.Card {
+  margin-left: 50px;
+  border: 1px solid coral;
+  background: turquoise;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  float: left;
+  cursor: pointer;
+  transition: transform 800ms;
+}
+
+.Card:hover {
+  background: coral;
+}
+
+/* styling the front side of the card */
+.Card.front {
+  background: rgb(255, 207, 190);
+  font-size: 60px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+/* container */
+.gameButtons {
+  display: inline-flex;
+  margin-left: 44%;
+  margin-bottom: 10%;
+}
+
+/* info button: !important to override css styling */
+.info {
+  background: grey !important;
+  border: 1px solid grey !important;
+  border-radius: 5px 0 0 5px !important;
+
+}
+
+.info:hover {
+  background: rgba(128, 128, 128, 0.205) !important;
+  color: grey !important;
+}
+
+/* quit button: !important to override css styling */
+.quit {
+  background: coral !important;
+  border: 1px solid coral !important;
+  border-radius: 0 5px 5px 0 !important;
+
+}
+
+.quit:hover {
+  background: rgba(255, 127, 80, 0.226) !important;
+  color: coral !important;
+}
+
+/* restart button: !important to override css styling */
+.restart {
+  background: teal !important;
+  border: 1px solid teal !important;
+  border-radius: 0 !important;
+}
+
+.restart:hover {
+  background: rgba(0, 128, 128, 0.233) !important;
+  color: teal !important;
+}
+
+/* =======================================================Alert Components===================================================== */
+.alertHeading {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.alert {
+  position: fixed !important;
+  background-color: #ffffffd1;
+  background-image: url(https://media.giphy.com/media/WNJATm9pwnjpjI1i0g/giphy.gif);
+  z-index: 10;
+  height: 120vh;
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+
+}
+
+/* the AlertLose component */
+.lose {
+  margin: -100px 0;
+  background-color: rgba(255, 127, 80, 0.836);
+  background-image: none !important;
+}
+
+/* the alert emoji */
+.result {
+  font-size: 250px;
+}
+
+/* =========================================================Timer Component================================================= */
+.timer {
+  display: block;
+  background-color: rgba(64, 224, 208, 0.267);
+  font-size: 18px;
+  color: rgb(13, 41, 38);
+  text-align: center;
+  text-transform: capitalize;
 }
