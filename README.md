@@ -6,7 +6,8 @@
 ## Table of Contents  
 
 [Installation](#installation)  
-[Functionality](#functionality)  
+[Viewing Project](#view)  
+[Game Objective](#game)  
 [Credits](#credits)  
 
 <a name="installation"/>  
@@ -14,7 +15,7 @@
 ## `Installation`
 
 To install this project navigate the download "code" button as shown in the screenshot below and download the zip folder.
-![zip](https://user-images.githubusercontent.com/79574031/109512421-c0a5ff80-7aac-11eb-891d-67f9421eaea8.JPG)
+![image](https://user-images.githubusercontent.com/79574031/113320208-8a110e00-9312-11eb-81fa-3b903f1a4574.png)
 
 
 Next, all you need to do is extract the files from the zip file...
@@ -31,11 +32,10 @@ And Voilà! All the resources are ready to be edited or read :bowtie:
 
 
 
-<a name="functionality"/>
+<a name="view"/>
 
-## `Functionality`
+## `Viewing Project`
 
-#### Viewing the website
 
 To view the website open your terminal and make sure you're on the same directory as where the file is stored.
 To navigate to the file simply type in cd followed by the path to your file.
@@ -46,11 +46,16 @@ Type: npm install - this might take a while....
 A few moments later... When it's done running type npm start and you project will run 
 on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
 
+
+
+
+<a name="game"/>
+
+## `Game Objectiv`
+
 #### The Home Page
 
 #### The Info Page
-
-#### The Game Page
 
 When you click the play button on the info page or the home page the the
 game starts and the count down starts. The main objective is to click on
