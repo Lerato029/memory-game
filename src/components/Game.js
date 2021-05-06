@@ -19,20 +19,20 @@ class Game extends React.Component {
 
     //array of card fronts
     const frontCard = [
-      "🍕",
-      "🍿",
-      "🍤",
-      "🥩",
-      "🥗",
-      "🥪",
-      "🍧",
-      "🍪",
-      "🍡",
-      "🍇",
-      "🍒",
-      "🥑",
-      "🥓",
-      "🌶",
+      "😀",
+      "😊",
+      "😴",
+      "😘",
+      "😍",
+      "👀",
+      "😨",
+      "😉",
+      "😎",
+      "❤",
+      "🙈",
+      "😅",
+      "👍",
+      "💩",
     ];
 
     //concat used to combine the two strings returned, Math.random() - 0.5 to shuffle the array

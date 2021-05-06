@@ -65,7 +65,6 @@ h1.heading {
   color: green !important;
 }
 
-
 /* =======Header |Responsive|=============== */
 @media screen and (max-width: 600px) {
   .headerTxt {
@@ -143,7 +142,7 @@ h1.heading {
 /* styling the front side of the card */
 .Card.front {
   background: rgb(255, 207, 190);
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   transform: rotateY(180deg);
 }
@@ -195,7 +194,7 @@ h1.heading {
 /* =======The Memory Game|Responsive|=============== */
 @media screen and (max-width: 600px) {
   .Card.front {
-    font-size: 30px;
+    font-size: 25px;
   }
   .gameBoard {
     width: 80%;
@@ -236,7 +235,16 @@ h1.heading {
 .result {
   font-size: 250px;
 }
-
+@media screen and (max-width: 600px) {
+  .alertHeading {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 35px;
+  }
+  .result {
+    font-size: 125px;
+  }
+}
 /* =========================================================Timer Component================================================= */
 .timer {
   display: block;
