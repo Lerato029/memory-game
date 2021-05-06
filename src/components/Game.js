@@ -191,7 +191,7 @@ class Game extends React.Component {
     /* statement returns all imported components and the props references are assigned state properties*/
     /* the alert components are rendered conditionally if false an empty div is rendered instead */
     return (
-      <div>
+      <div className="parent">
         {this.state.winner ? (
           <Alert
             hide={() => {
@@ -214,17 +214,19 @@ class Game extends React.Component {
         )}
         <h1 className="heading">MEMORY GAME </h1>
         <Timer count={this.state.count} />
-        {this.state.cardDeck.map((front, index) => (
-          <div className="gameBoard" key={index}>
-            <Card
-              toggleReveal={() => {
-                this.toggleReveal(index);
-              }}
-              content={front.content}
-              revealed={front.revealed}
-            />
-          </div>
-        ))}
+        <div className="gameBoard">
+          {this.state.cardDeck.map((front, index) => (
+            <div className="column" key={index}>
+              <Card
+                toggleReveal={() => {
+                  this.toggleReveal(index);
+                }}
+                content={front.content}
+                revealed={front.revealed}
+              />
+            </div>
+          ))}
+        </div>
         <div>
           <GameButtons
             restart={() => {
